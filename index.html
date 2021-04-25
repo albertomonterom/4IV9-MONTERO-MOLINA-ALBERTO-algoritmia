@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>menu</title>
+    <link rel="stylesheet" href="./css/masterstyle.css">
+    <script src="./js/algoritmiajs.js"></script>
+</head>
+<body>
+    <header class="titulo">PROBLEMA 3</header>
+    <div>
+        <section class="problema-title">
+            Dada una lista de palabras separadas, encontrar la palabra que más números de 
+            caracteres únicos tenga.
+            <br>
+            Ejemplo: CASA = 3(c, a, s) PERRO = 4(p, e, r, o)
+            <br>
+            Considera solamente un alfabeto de la A - Z en mayúsculas
+            <br>
+            Las palabras ingresadas deberan estar separadas por una coma, no se aceptan espacios
+        </section>
+    </div>
+
+    <div class="problema-content">
+        <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por una coma" id="p3-input">
+        <!--El evento onclick es un evento que me permite ejecutar una función cuabndo se le da clic
+        al elemento-->
+        <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema3()">CONTAR PALABRAS</button>
+
+        <pre class="problema-output" id="p3-output">Esperando respuesta...</pre>
+    </div>
+
+
+
+    <footer class="problema-footer">MONTERO MOLINA ALBERTO 4IV9</footer>
+    
+</body>
+</html>

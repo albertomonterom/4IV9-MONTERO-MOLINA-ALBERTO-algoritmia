@@ -1,0 +1,58 @@
+html{
+    background-color: #6c757d;
+}
+.titulo{
+    margin-top: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    border: 6px solid #212529;
+    border-radius: 2rem;
+    font-size: 60px;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    background: -webkit-linear-gradient(top, #ced4da, #495057);
+    margin-bottom: 4rem;
+}
+
+
+.problema-footer{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    border: 6px solid #212529;
+    border-radius: 2rem;
+    font-size: 30px;
+    width: 25%;
+    margin-left: 36rem;
+    margin-top: 9rem;
+    background: -webkit-linear-gradient(top, #ced4da, #495057);
+}
+.problema-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.problema-input{
+    font-family: 'Bebas Neue', cursive;
+    width: 15rem;
+    text-align: center;
+    font-size: 19px;
+}
+
+button.problema-button{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 19px;
+    box-shadow: 0 6px 6px;
+    border-radius: 4px;
+}
+.problema-output{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.problema-content{
+    text-align: center;
+}
